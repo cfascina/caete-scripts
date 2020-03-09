@@ -4,7 +4,7 @@
 
 # %% teste LLS 6 anos
 import matplotlib.pyplot as plt
-import numpy as np
+import numpy as np 
 import math
 def fa(u, acrit, a):
     #return min(1,math.exp(u*(acrit-a)))
