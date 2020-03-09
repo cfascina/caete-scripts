@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f4f1625-618b-4db2-9bae-2b7e257c2d3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/caete-scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allometry/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-age-effect/acrit_testes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-age-effect/age_crit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-age-effect/gráfico fa vs idade.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="caete-scripts" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YioUeMvPkhBjWFGuHKLFEamwnm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f4f1625-618b-4db2-9bae-2b7e257c2d3f" name="Default Changelist" comment="" />
+      <created>1583434899123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583434899123</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="648" y="295" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583435062065">
+      <screen x="51" y="27" width="1629" height="1023" />
+    </state>
+    <state x="648" y="295" width="424" height="484" key="FileChooserDialogImpl/51.27.1629.1023/173.1050.1360.768@51.27.1629.1023" timestamp="1583435062065" />
+    <state x="476" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583764394122">
+      <screen x="51" y="27" width="1629" height="1023" />
+    </state>
+    <state x="376" y="276" key="com.intellij.ide.util.TipDialog/1440.0.1366.768/0.27.1440.873@0.27.1440.873" timestamp="1583518709511" />
+    <state x="476" y="319" key="com.intellij.ide.util.TipDialog/51.27.1629.1023/173.1050.1360.768@51.27.1629.1023" timestamp="1583764394122" />
+    <state x="513" y="104" width="704" height="867" key="find.popup" timestamp="1583435724051">
+      <screen x="51" y="27" width="1629" height="1023" />
+    </state>
+    <state x="513" y="104" width="704" height="867" key="find.popup/51.27.1629.1023/173.1050.1360.768@51.27.1629.1023" timestamp="1583435724051" />
+    <state x="460" y="199" width="800" height="677" key="scopes" timestamp="1583435704785">
+      <screen x="51" y="27" width="1629" height="1023" />
+    </state>
+    <state x="460" y="199" width="800" height="677" key="scopes/51.27.1629.1023/173.1050.1360.768@51.27.1629.1023" timestamp="1583435704785" />
+  </component>
+</project>
