@@ -5,7 +5,7 @@ import pandas as pd
 def photosynthesis_penalty(umol_penalty, leaf_critical_age, leaf_middle_age):
     return min(1, math.exp(umol_penalty * (leaf_critical_age - leaf_middle_age)))
 
-
+ 
 # Photosynthesis penalty values for each coorte
 # Original: 12 / 30 / 20  - (umol* CO2) /  m² *  s^1)
 umol_penalties = [-0.4, 1, 0.6]
@@ -46,3 +46,4 @@ data = {
 
 data_frame = pd.DataFrame(data)
 print(data_frame)
+
