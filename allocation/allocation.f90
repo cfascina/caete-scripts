@@ -11,17 +11,16 @@ module allocation
     real(REAL64), parameter :: k_allom2 = 36.0
     real(REAL64), parameter :: k_allom3 = 0.22
     real(REAL64), parameter :: spec_leaf = 15.365607091853349 
-    real(REAL64), parameter :: bminc = 0.0
+    real(REAL64), parameter :: bminc = 120.0000000
     real(REAL64), parameter :: tol = 0.0000001
     real(REAL64), parameter :: pi = 3.1415926536
 
     !==============================!
 
-    real(REAL64) :: H = 3 !SOMENTE PARA TESTES
-    real(REAL64) :: L = 4 !SOMENTE PARA TESTES
-    real(REAL64) :: SS = 2 !SOMENTE PARA TESTES
-    real(REAL64) :: R = 4 !SOMENTE PARA TESTES
-    real(REAL64) :: SW = 5 !SOMENTE PARA TESTES
+    real(REAL64) :: H = 108.91909828977032 !HEARTWOOD - SOMENTE PARA TESTES
+    real(REAL64) :: L = 1.2279169651518438 !LEAF BIOMASS - SOMENTE PARA TESTES
+    real(REAL64) :: S = 29.790591253578555 !SAPWOOD - SOMENTE PARA TESTES
+    real(REAL64) :: R = 0.88026193814051623 !ROOT BIOMASS - SOMENTE PARA TESTES
     
     contains
 
@@ -115,9 +114,9 @@ module allocation
         
         searched_x = & 
             calc_tau1() * &
-            (SS - x - x / ltor + H) - &
+            (sapwood() - x - x / ltor + H) - &
             ( &
-                (SS - x - x / ltor) / &
+                (sapwood() - x - x / ltor) / &
                 (L + x) * calc_tau3() &
             ) ** calc_tau2()
     end function f
@@ -143,15 +142,11 @@ module allocation
         tau3 = klatosa / dw / spec_leaf
     end function calc_tau3
 
-    ! function sapwood (ltor, R, SW, L, bminc) result (SS)
-    !     implicit none
-    !     real :: ltor
-    !     real :: R
-    !     real :: SW
-    !     real :: L
-    !     real :: bminc
-    !     real :: SS
+    function sapwood () result (SS)
+         implicit none
+         real(REAL64) :: SS
         
-    !     SS = SW + bminc - L / ltor + R
-    ! end function sapwood
+         SS = S + bminc - L / ltor + R
+     end function sapwood
+
 end module allocation
