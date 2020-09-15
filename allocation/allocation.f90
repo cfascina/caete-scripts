@@ -17,10 +17,15 @@ module allocation
 
     !==============================!
 
-    real(REAL64) :: H = 108.91909828977032 !HEARTWOOD - SOMENTE PARA TESTES
-    real(REAL64) :: L = 1.2279169651518438 !LEAF BIOMASS - SOMENTE PARA TESTES
-    real(REAL64) :: S = 29.790591253578555 !SAPWOOD - SOMENTE PARA TESTES
-    real(REAL64) :: R = 0.88026193814051623 !ROOT BIOMASS - SOMENTE PARA TESTES
+    real(REAL64) :: H = 0.0
+    real(REAL64) :: L = 0.0
+    real(REAL64) :: R = 0.0
+    real(REAL64) :: S = 0.0
+
+    ! real(REAL64) :: H = 108.91909828977032 !HEARTWOOD - SOMENTE PARA TESTES (Valores: Cod. Philipe)
+    ! real(REAL64) :: L = 1.2279169651518438 !LEAF BIOMASS - SOMENTE PARA TESTES (Valores: Cod. Philipe)
+    ! real(REAL64) :: S = 29.790591253578555 !SAPWOOD - SOMENTE PARA TESTES (Valores: Cod. Philipe)
+    ! real(REAL64) :: R = 0.88026193814051623 !ROOT BIOMASS - SOMENTE PARA TESTES (Valores: Cod. Philipe)
     
     contains
 
